@@ -1,9 +1,10 @@
-#Description: CCM32K Driver; user_visible: True
+#Description: Flash Driver; user_visible: True
 include_guard(GLOBAL)
-message("driver_ccm32k component is included.")
+message("driver_flash_k4 component is included.")
 
 target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE
-    ${CMAKE_CURRENT_LIST_DIR}/fsl_ccm32k.c
+    ${CMAKE_CURRENT_LIST_DIR}/fsl_k4_controller.c
+    ${CMAKE_CURRENT_LIST_DIR}/fsl_k4_flash.c
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PUBLIC
