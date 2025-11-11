@@ -1,0 +1,729 @@
+WARNING: Block comments use a trailing */ on a separate line
+#46: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:46:
++ * compatible) */
+
+WARNING: Block comments use a trailing */ on a separate line
+#338: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:338:
++ * @{ */
+
+WARNING: Block comments should align the * on each line
+#462: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:462:
++/*
++** Start of section using anonymous unions
+
+WARNING: Block comments use * on subsequent lines
+#519: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:519:
++		__IO uint32_t CMDL; /* ADC Command Low Buffer Register, array offset: 0x100, array
++				       step: 0x8 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#519: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:519:
++				       step: 0x8 */
+
+WARNING: Block comments use * on subsequent lines
+#521: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:521:
++		__IO uint32_t CMDH; /* ADC Command High Buffer Register, array offset: 0x104,
++				       array step: 0x8 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#521: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:521:
++				       array step: 0x8 */
+
+WARNING: Block comments use * on subsequent lines
+#3910: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3910:
++			__IO uint32_t CS; /* Message Buffer 0 CS Register..Message Buffer 31 CS
++					     Register, array offset: 0x80, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3910: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3910:
++					     Register, array offset: 0x80, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3912: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3912:
++			__IO uint32_t ID; /* Message Buffer 0 ID Register..Message Buffer 31 ID
++					     Register, array offset: 0x84, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3912: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3912:
++					     Register, array offset: 0x84, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3914: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3914:
++			__IO uint32_t WORD[2]; /* Message Buffer 0 WORD_8B Register..Message
++						  Buffer 31 WORD_8B Register, array offset: 0x88,
+
+WARNING: Block comments use a trailing */ on a separate line
+#3915: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3915:
++						  array step: index*0x10, index2*0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#3919: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3919:
++			__IO uint32_t CS; /* Message Buffer 0 CS Register..Message Buffer 20 CS
++					     Register, array offset: 0x80, array step: 0x18 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3919: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3919:
++					     Register, array offset: 0x80, array step: 0x18 */
+
+WARNING: Block comments use * on subsequent lines
+#3921: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3921:
++			__IO uint32_t ID; /* Message Buffer 0 ID Register..Message Buffer 20 ID
++					     Register, array offset: 0x84, array step: 0x18 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3921: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3921:
++					     Register, array offset: 0x84, array step: 0x18 */
+
+WARNING: Block comments use * on subsequent lines
+#3923: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3923:
++			__IO uint32_t WORD[4]; /* Message Buffer 0 WORD_16B Register..Message
++						  Buffer 20 WORD_16B Register, array offset: 0x88,
+
+WARNING: Block comments use a trailing */ on a separate line
+#3924: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3924:
++						  array step: index*0x18, index2*0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#3928: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3928:
++			__IO uint32_t CS; /* Message Buffer 0 CS Register..Message Buffer 11 CS
++					     Register, array offset: 0x80, array step: 0x28 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3928: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3928:
++					     Register, array offset: 0x80, array step: 0x28 */
+
+WARNING: Block comments use * on subsequent lines
+#3930: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3930:
++			__IO uint32_t ID; /* Message Buffer 0 ID Register..Message Buffer 11 ID
++					     Register, array offset: 0x84, array step: 0x28 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3930: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3930:
++					     Register, array offset: 0x84, array step: 0x28 */
+
+WARNING: Block comments use * on subsequent lines
+#3932: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3932:
++			__IO uint32_t WORD[8]; /* Message Buffer 0 WORD_32B Register..Message
++						  Buffer 11 WORD_32B Register, array offset: 0x88,
+
+WARNING: Block comments use a trailing */ on a separate line
+#3933: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3933:
++						  array step: index*0x28, index2*0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#3937: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3937:
++			__IO uint32_t CS; /* Message Buffer 0 CS Register..Message Buffer 6 CS
++					     Register, array offset: 0x80, array step: 0x48 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3937: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3937:
++					     Register, array offset: 0x80, array step: 0x48 */
+
+WARNING: Block comments use * on subsequent lines
+#3939: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3939:
++			__IO uint32_t ID; /* Message Buffer 0 ID Register..Message Buffer 6 ID
++					     Register, array offset: 0x84, array step: 0x48 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3939: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3939:
++					     Register, array offset: 0x84, array step: 0x48 */
+
+WARNING: Block comments use * on subsequent lines
+#3941: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3941:
++			__IO uint32_t WORD[16]; /* Message Buffer 0 WORD_64B Register..Message
++						   Buffer 6 WORD_64B Register, array offset: 0x88,
+
+WARNING: Block comments use a trailing */ on a separate line
+#3942: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3942:
++						   array step: index*0x48, index2*0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#3946: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3946:
++			__IO uint32_t CS; /* Message Buffer 0 CS Register..Message Buffer 31 CS
++					     Register, array offset: 0x80, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3946: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3946:
++					     Register, array offset: 0x80, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3948: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3948:
++			__IO uint32_t ID; /* Message Buffer 0 ID Register..Message Buffer 31 ID
++					     Register, array offset: 0x84, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3948: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3948:
++					     Register, array offset: 0x84, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3951: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3951:
++			    WORD0; /* Message Buffer 0 WORD0 Register..Message Buffer 31 WORD0
++				      Register, array offset: 0x88, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3951: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3951:
++				      Register, array offset: 0x88, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3954: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3954:
++			    WORD1; /* Message Buffer 0 WORD1 Register..Message Buffer 31 WORD1
++				      Register, array offset: 0x8C, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3954: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3954:
++				      Register, array offset: 0x8C, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3973: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3973:
++	__IO uint32_t FLT_ID2_IDMASK; /* Pretended Networking ID Filter 2 Register / ID Mask
++					 Register, offset: 0xB1C */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3973: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3973:
++					 Register, offset: 0xB1C */
+
+WARNING: Block comments use * on subsequent lines
+#3975: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3975:
++	__IO uint32_t PL2_PLMASK_LO;  /* Pretended Networking Payload Low Filter 2 Register /
++					 Payload Low Mask register, offset: 0xB20 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3975: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3975:
++					 Payload Low Mask register, offset: 0xB20 */
+
+WARNING: Block comments use * on subsequent lines
+#3977: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3977:
++	__IO uint32_t PL2_PLMASK_HI;  /* Pretended Networking Payload High Filter 2 low order bits
++					 / Payload High Mask register, offset: 0xB24 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3977: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3977:
++					 / Payload High Mask register, offset: 0xB24 */
+
+WARNING: Block comments use * on subsequent lines
+#3981: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3981:
++		__I uint32_t CS;  /* Wake Up Message Buffer register for C/S, array offset: 0xB40,
++				     array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3981: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3981:
++				     array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3983: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3983:
++		__I uint32_t ID;  /* Wake Up Message Buffer Register for ID, array offset: 0xB44,
++				     array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3983: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3983:
++				     array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3985: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3985:
++		__I uint32_t D03; /* Wake Up Message Buffer Register for Data 0-3, array offset:
++				     0xB48, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3985: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3985:
++				     0xB48, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#3987: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3987:
++		__I uint32_t D47; /* Wake Up Message Buffer Register Data 4-7, array offset:
++				     0xB4C, array step: 0x10 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#3987: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:3987:
++				     0xB4C, array step: 0x10 */
+
+WARNING: Block comments use * on subsequent lines
+#4002: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:4002:
++	__IO uint32_t ERFFEL[32]; /* Enhanced Rx FIFO Filter Element, array offset: 0x3000, array
++				     step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#4002: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:4002:
++				     step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#5875: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:5875:
++ * register */
+
+WARNING: Block comments use a trailing */ on a separate line
+#5916: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:5916:
++ * Mask register */
+
+WARNING: Block comments use * on subsequent lines
+#6944: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6944:
++	__IO uint32_t CIU2_CPU2_ICODE_INV_ADDR_CTRL; /* CPU2 Icode invalid address access control,
++							offset: 0x15C */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6944: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6944:
++							offset: 0x15C */
+
+WARNING: Block comments use * on subsequent lines
+#6947: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6947:
++	__IO uint32_t CIU2_CPU2_DCODE_INV_ADDR_CTRL; /* CPU2 Dcode invalid address access control,
++							offset: 0x164 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6947: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6947:
++							offset: 0x164 */
+
+WARNING: Block comments use * on subsequent lines
+#6983: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6983:
++	__I uint32_t CIU2_IMU_CPU1_CPU2_MSG_FIFO_STATUS;     /* CPU1 to CPU2 message FIFO status,
++								offset: 0x1DC */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6983: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6983:
++								offset: 0x1DC */
+
+WARNING: Block comments use * on subsequent lines
+#6985: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6985:
++	__IO uint32_t CIU2_IMU_CPU1_CPU2_MSG_FIFO_CNTL;	     /* CPU1 to CPU2 message FIFO control,
++								offset: 0x1E0 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6985: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6985:
++								offset: 0x1E0 */
+
+WARNING: Block comments use * on subsequent lines
+#6987: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6987:
++	__I uint32_t CIU2_IMU_CPU2_RD_MSG_FROM_CPU1_VAL_DBG; /* CPU2 last message read (from
++								cpu1), offset: 0x1E4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6987: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6987:
++								cpu1), offset: 0x1E4 */
+
+WARNING: Block comments use * on subsequent lines
+#6993: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6993:
++	__I uint32_t CIU2_IMU_CPU2_CPU1_MSG_FIFO_STATUS;     /* CPU2 to CPU1 message FIFO status,
++								offset: 0x1F0 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6993: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6993:
++								offset: 0x1F0 */
+
+WARNING: Block comments use * on subsequent lines
+#6995: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6995:
++	__IO uint32_t CIU2_IMU_CPU2_CPU1_MSG_FIFO_CNTL;	     /* CPU2 to CPU1 message FIFO control,
++								offset: 0x1F4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6995: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6995:
++								offset: 0x1F4 */
+
+WARNING: Block comments use * on subsequent lines
+#6997: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6997:
++	__I uint32_t CIU2_IMU_CPU1_RD_MSG_FROM_CPU2_VAL_DBG; /* CPU1 last message read (from
++								cpu2), offset: 0x1F8 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#6997: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:6997:
++								cpu2), offset: 0x1F8 */
+
+WARNING: Block comments use * on subsequent lines
+#7008: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7008:
++	__IO uint32_t CIU2_CPU2_LMU_STA_BYPASS0; /* LMU static bank control byapss0 Register for
++						    CPU2 mem, offset: 0x214 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#7008: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7008:
++						    CPU2 mem, offset: 0x214 */
+
+WARNING: Block comments use * on subsequent lines
+#7010: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7010:
++	__IO uint32_t CIU2_CPU2_LMU_STA_BYPASS1; /* LMU static bank control byapss1 Register for
++						    CPU2, offset: 0x218 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#7010: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7010:
++						    CPU2, offset: 0x218 */
+
+WARNING: Block comments use * on subsequent lines
+#7012: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7012:
++	__IO uint32_t CIU2_CPU2_LMU_STA_BYPASS2; /* LMU static bank byapss2 Register for CPU2,
++						    offset: 0x21C */
+
+WARNING: Block comments use a trailing */ on a separate line
+#7012: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7012:
++						    offset: 0x21C */
+
+WARNING: Block comments use * on subsequent lines
+#7014: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7014:
++	__IO uint32_t CIU2_CPU2_LMU_G2BIST_CTRL_BYPASS; /* LMU G2Bist control byapss Register for
++							   CPU2, offset: 0x220 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#7014: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:7014:
++							   CPU2, offset: 0x220 */
+
+WARNING: Block comments use * on subsequent lines
+#10949: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10949:
++		__IO uint32_t CH_CSR; /* Channel Control and Status, array offset: 0x1000, array
++					 step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10949: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10949:
++					 step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10953: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10953:
++		__IO uint32_t CH_INT; /* Channel Interrupt Status, array offset: 0x1008, array
++					 step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10953: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10953:
++					 step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10959: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10959:
++		__IO uint32_t CH_MUX; /* Channel Multiplexor Configuration, array offset: 0x1014,
++					 array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10959: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10959:
++					 array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10965: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10965:
++		__IO uint16_t TCD_SOFF; /* TCD Signed Source Address Offset, array offset: 0x1024,
++					   array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10965: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10965:
++					   array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10967: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10967:
++		__IO uint16_t TCD_ATTR; /* TCD Transfer Attributes, array offset: 0x1026, array
++					   step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10967: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10967:
++					   step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10971: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10971:
++			    TCD_NBYTES_MLOFFNO; /* TCD Transfer Size Without Minor Loop Offsets,
++						   array offset: 0x1028, array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10971: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10971:
++						   array offset: 0x1028, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10974: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10974:
++			    TCD_NBYTES_MLOFFYES; /* TCD Transfer Size with Minor Loop Offsets,
++						    array offset: 0x1028, array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10974: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10974:
++						    array offset: 0x1028, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10977: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10977:
++		__IO uint32_t TCD_SLAST_SDA; /* TCD Last Source Address Adjustment / Store DADDR
++						Address, array offset: 0x102C, array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10977: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10977:
++						Address, array offset: 0x102C, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10979: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10979:
++		__IO uint32_t TCD_DADDR; /* TCD Destination Address, array offset: 0x1030, array
++					    step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10979: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10979:
++					    step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10981: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10981:
++		__IO uint16_t TCD_DOFF;	 /* TCD Signed Destination Address Offset, array offset:
++					    0x1034, array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10981: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10981:
++					    0x1034, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10984: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10984:
++			__IO uint16_t TCD_CITER_ELINKNO;  /* TCD Current Major Loop Count (Minor
++							     Loop Channel Linking Disabled), array
+
+WARNING: Block comments use a trailing */ on a separate line
+#10985: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10985:
++							     offset: 0x1036, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10987: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10987:
++			__IO uint16_t TCD_CITER_ELINKYES; /* TCD Current Major Loop Count (Minor
++							     Loop Channel Linking Enabled), array
+
+WARNING: Block comments use a trailing */ on a separate line
+#10988: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10988:
++							     offset: 0x1036, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10992: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10992:
++		    TCD_DLAST_SGA;     /* TCD Last Destination Address Adjustment / Scatter Gather
++					  Address, array offset: 0x1038, array step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10992: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10992:
++					  Address, array offset: 0x1038, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10994: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10994:
++		__IO uint16_t TCD_CSR; /* TCD Control and Status, array offset: 0x103C, array
++					  step: 0x1000 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#10994: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10994:
++					  step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#10997: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10997:
++			__IO uint16_t TCD_BITER_ELINKNO;  /* TCD Beginning Major Loop Count (Minor
++							     Loop Channel Linking Disabled), array
+
+WARNING: Block comments use a trailing */ on a separate line
+#10998: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:10998:
++							     offset: 0x103E, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#11000: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:11000:
++			__IO uint16_t TCD_BITER_ELINKYES; /* TCD Beginning Major Loop Count (Minor
++							     Loop Channel Linking Enabled), array
+
+WARNING: Block comments use a trailing */ on a separate line
+#11001: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:11001:
++							     offset: 0x103E, array step: 0x1000 */
+
+WARNING: Block comments use * on subsequent lines
+#12717: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12717:
++	__IO uint32_t SHIFTCFG[8]; /* Shifter Configuration N Register, array offset: 0x100, array
++				      step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12717: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12717:
++				      step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12724: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12724:
++	__IO uint32_t SHIFTBUFBIS[8]; /* Shifter Buffer N Bit Swapped Register, array offset:
++					 0x280, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12724: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12724:
++					 0x280, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12727: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12727:
++	__IO uint32_t SHIFTBUFBYS[8]; /* Shifter Buffer N Byte Swapped Register, array offset:
++					 0x300, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12727: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12727:
++					 0x300, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12730: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12730:
++	__IO uint32_t SHIFTBUFBBS[8]; /* Shifter Buffer N Bit Byte Swapped Register, array offset:
++					 0x380, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12730: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12730:
++					 0x380, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12745: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12745:
++	__IO uint32_t SHIFTBUFNBS[8]; /* Shifter Buffer N Nibble Byte Swapped Register, array
++					 offset: 0x680, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12745: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12745:
++					 offset: 0x680, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12748: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12748:
++	__IO uint32_t SHIFTBUFHWS[8]; /* Shifter Buffer N Half Word Swapped Register, array
++					 offset: 0x700, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12748: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12748:
++					 offset: 0x700, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12751: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12751:
++	__IO uint32_t SHIFTBUFNIS[8]; /* Shifter Buffer N Nibble Swapped Register, array offset:
++					 0x780, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12751: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12751:
++					 0x780, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12754: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12754:
++	__IO uint32_t SHIFTBUFOES[8]; /* Shifter Buffer N Odd Even Swapped Register, array offset:
++					 0x800, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12754: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12754:
++					 0x800, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12757: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12757:
++	__IO uint32_t SHIFTBUFEOS[8]; /* Shifter Buffer N Even Odd Swapped Register, array offset:
++					 0x880, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12757: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12757:
++					 0x880, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#12760: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12760:
++	__IO uint32_t SHIFTBUFHBS[8]; /* Shifter Buffer N Halfword Byte Swapped Register, array
++					 offset: 0x900, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#12760: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:12760:
++					 offset: 0x900, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#13684: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:13684:
++	__IO uint32_t FCCOB[8]; /* Flash Common Command Object Registers, array offset: 0x10,
++				   array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#13684: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:13684:
++				   array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#14140: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:14140:
++	__IO uint32_t DMDAA_CTRL; /* PHY Demodulator Based SFD Confirmation control register.,
++				     offset: 0x164 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#14140: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:14140:
++				     offset: 0x164 */
+
+WARNING: Block comments use * on subsequent lines
+#15608: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:15608:
++		__IO uint32_t GTM_FIRST_SFD2WD;	  /* GTM MODE TIME OF FIRST SFD FOUND TO FORCE RX
++						     WARMDOWN, offset: 0xBC */
+
+WARNING: Block comments use a trailing */ on a separate line
+#15608: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:15608:
++						     WARMDOWN, offset: 0xBC */
+
+WARNING: Block comments use * on subsequent lines
+#18685: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:18685:
++	__IO uint32_t ICR[32]; /* Interrupt Control Register 0..Interrupt Control Register 31,
++				  array offset: 0x80, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#18685: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:18685:
++				  array offset: 0x80, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#33436: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:33436:
++	__IO uint32_t PCR[23]; /* Pin Control Register 0..Pin Control Register 6, array offset:
++				  0x80, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#33436: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:33436:
++				  0x80, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#36496: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:36496:
++	__IO uint32_t REG[8]; /* Register File Register 0..Register File Register 7, array offset:
++				 0x0, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#36496: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:36496:
++				 0x0, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#39007: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:39007:
++	__IO uint32_t PACKET_RAM[512]; /* Shared Packet RAM for multiple Link Layer usage., array
++					  offset: 0x0, array step: 0x4 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#39007: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:39007:
++					  offset: 0x0, array step: 0x4 */
+
+WARNING: Block comments use * on subsequent lines
+#40309: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40309:
++	__IO uint32_t CUT_TARGET; /* Signal Frequency Analyser Clock Under Test Target Count,
++				     offset: 0x14 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40309: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40309:
++				     offset: 0x14 */
+
+WARNING: Block comments use * on subsequent lines
+#40313: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40313:
++	__I uint32_t REF_CNT_ST_SAVED;	/* Signal Frequency Analyser Reference Clock Count Start
++					   Saved Register, offset: 0x1C */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40313: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40313:
++					   Saved Register, offset: 0x1C */
+
+WARNING: Block comments use * on subsequent lines
+#40315: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40315:
++	__I uint32_t REF_CNT_END_SAVED; /* Signal Frequency Analyser Reference Clock Count End
++					   Saved Register, offset: 0x20 */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40315: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40315:
++					   Saved Register, offset: 0x20 */
+
+WARNING: Block comments use * on subsequent lines
+#40321: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40321:
++	__IO uint32_t REF_HIGH_LIMIT_CNT; /* This register record the low limit of ref clk
++					     counter, offset: 0x2C */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40321: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40321:
++					     counter, offset: 0x2C */
+
+WARNING: Block comments use * on subsequent lines
+#40436: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40436:
++	(0xF000000U) /* Merged from fields with different position or width, of widths (1, 4),     \
++			largest definition used */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40436: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40436:
++			largest definition used */
+
+WARNING: Block comments use * on subsequent lines
+#40443: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40443:
++	 SFA_CTRL_CUT_SEL_MASK) /* Merged from fields with different position or width, of widths  \
++				   (1, 4), largest definition used */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40443: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40443:
++				   (1, 4), largest definition used */
+
+WARNING: Block comments use * on subsequent lines
+#40458: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40458:
++	(0xFFFFU) /* Merged from fields with different position or width, of widths (1, 16),       \
++		     largest definition used */
+
+WARNING: Block comments use a trailing */ on a separate line
+#40458: FILE: mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h:40458:
++		     largest definition used */
+
+total: 0 errors, 230 warnings, 69724 lines checked
+
+mcux/mcux-sdk/devices/KW45B41Z83/KW45B41Z83.h has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

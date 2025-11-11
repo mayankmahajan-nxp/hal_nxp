@@ -1,0 +1,39 @@
+ERROR: Macros with multiple statements should be enclosed in a do - while loop
+#636: FILE: mcux/mcux-sdk/boards/kw45b41zevk/board.h:66:
++#define LED1_INIT(output)                                            \
++	GPIO_PinWrite(BOARD_LED1_GPIO, BOARD_LED1_GPIO_PIN, output); \
++	BOARD_LED1_GPIO->PDDR |= (1U << BOARD_LED1_GPIO_PIN)                      /*!< Enable target LED1 */
+
+ERROR: Macros with multiple statements should be enclosed in a do - while loop
+#646: FILE: mcux/mcux-sdk/boards/kw45b41zevk/board.h:73:
++#define LED2_INIT(output)                                            \
++	GPIO_PinWrite(BOARD_LED2_GPIO, BOARD_LED2_GPIO_PIN, output); \
++	BOARD_LED2_GPIO->PDDR |= (1U << BOARD_LED2_GPIO_PIN)                      /*!< Enable target LED2 */
+
+ERROR: Macros with multiple statements should be enclosed in a do - while loop
+#656: FILE: mcux/mcux-sdk/boards/kw45b41zevk/board.h:80:
++#define LED3_INIT(output)                                            \
++	GPIO_PinWrite(BOARD_LED3_GPIO, BOARD_LED3_GPIO_PIN, output); \
++	BOARD_LED3_GPIO->PDDR |= (1U << BOARD_LED3_GPIO_PIN)                      /*!< Enable target LED3 */
+
+WARNING: added, moved or deleted file(s), does MAINTAINERS need updating?
+#1068:
+new file mode 100644
+
+WARNING: Prefer __weak over __attribute__((weak))
+#318505: FILE: mcux/mcux-sdk/devices/KW45B41Z83/system_KW45B41Z83.c:72:
++__attribute__ ((weak)) void SystemInit(void)
+
+WARNING: Prefer __weak over __attribute__((weak))
+#318605: FILE: mcux/mcux-sdk/devices/KW45B41Z83/system_KW45B41Z83.c:172:
++__attribute__ ((weak)) void SystemInitHook(void)
+
+total: 3 errors, 7501 warnings, 318587 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 39cdf769ca04 ("mcux: kw45 Soc and Board Support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.
